@@ -9,7 +9,7 @@
     "start": "nodemon app.js",
     "dev": "nodemon app.js",
     "staging": "node app.js",
-    "prod": "node app.js"
+    "production": "node app.js"
   },
   "keywords": [],
   "author": "",

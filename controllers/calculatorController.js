@@ -38,10 +38,10 @@ export const calculateMaximumProfit = async (req, res) => {
     const [buyData, sellData] = dipPeakPair;
 
     return res.status(200).json({
-      bestBuyDate: buyData.data,
-      bestBuyPrice: buyData.cena,
-      bestSellDate: sellData.data,
-      bestSellPrice: sellData.cena,
+      best_buy_date: buyData.data,
+      best_buy_price: buyData.cena,
+      best_sell_date: sellData.data,
+      best_sell_price: sellData.cena,
     });
   } catch (error) {
     console.log(error);
